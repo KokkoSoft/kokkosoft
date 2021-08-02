@@ -1,19 +1,23 @@
 header{
+    width: 100%;
+    position: fixed;
+    
     height: 100%;
     margin: 0 auto;
     justify-content: space-around;
-    background-color: black;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    position:fixed;
+    top:0px;
 }
-header a{
+header li a{
     position: relative;top:-5px;
     font-size: 20px;
-    padding: 10px;
+    padding: 50px;
     font-family: "ubuntu";
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 body {
+    
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -24,4 +28,14 @@ body {
     text-align: center;
     position: relative;top: 120px;;
 }
+header li {
+    display: inline-block;
+}
+.lecto {
     
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    
+    text-align: center;
+}
