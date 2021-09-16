@@ -24,8 +24,8 @@ header{
     z-index: 4;
     width: 100%;
     position: fixed;
-    
-    height: 100%;
+    height: 60px;
+    background: black;
     margin: 0 auto;
     justify-content: space-around;
     position:fixed;
@@ -113,3 +113,67 @@ header li {
 a {
     position: relative;
 }
+.menber li{
+    
+    display: inline-block; 
+    border: 3px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    background-color: #262626;
+}
+footer p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Noto Sans JP";
+}
+.sakusya{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+footer img{
+    position: relative;
+    left: 50px;
+    width: 120px;
+    height: 30px;
+}
+.iroiro a{
+    text-decoration: none;
+    font-family: "Noto Sans JP";
+    position: relative;
+    left: 56px;
+    list-style: none;
+    color: rgb(153, 153, 153);
+}
+.menber h3{
+    color: rgb(0, 0, 0);
+}
+.menber img{
+    position: relative;
+    left: 0px;
+    display: inline-block; 
+}
+.next {
+    position: relative;
+    left: 890px;
+    top: 10px;
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #494949;
+    color: #000000;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  }
+  .btn-sticky:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+  }
