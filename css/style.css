@@ -72,6 +72,9 @@ header li {
     top: 10px;
     right: 750px;
     z-index: 5;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
 }
 .projectimge p{
     color: white;
@@ -177,4 +180,25 @@ footer img{
     box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
     transform: translateY(2px);
   }
-  
+  .More {
+      position: relative;
+      top: 10px;
+      left: 880px;
+      margin: 10px;
+      padding: 5px;
+      text-decoration: none;
+      font-family: "Ubuntu";
+      font-size: 30px;
+      text-align: center;
+      background: white;
+      color: black;
+      box-shadow: rgb(240, 240, 240) 1px 1px,rgb(237, 237, 237) 2px 2px,rgb(234, 234, 234)3px 3px,rgb(231, 231, 231) 4px 4px,rgb(228, 228, 228) 5px 5px,rgb(218, 218, 218) 6px 6px,rgb(201, 201, 201) 6px 6px,rgb(291, 291, 291) 7px 7px, rgb(281, 281, 281) 6px 6px,rgb(271, 271, 271) 8px 8px,rgb(261, 261, 261) 9px 9px,rgb(240, 240, 240) 10px 10px;
+  }
+
+  .More:hover{
+    background-color: #d8d8d8;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease
+  }
