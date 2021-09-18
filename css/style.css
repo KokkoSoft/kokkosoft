@@ -202,3 +202,7 @@ footer img{
     -o-transition: all 0.3s ease;
     transition: all  0.3s ease
   }
+  .nai{
+      text-align: center;
+      font-family: "Noto Sans JP";
+  }
