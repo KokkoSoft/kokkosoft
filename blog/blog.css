@@ -1,0 +1,84 @@
+.logo{
+    text-align: center;
+    font-family: "Noto Sans JP";
+    box-shadow:
+    0 1.9px 2.5px rgba(114, 114, 114, 0.057),
+    0 2px 6.1px rgba(105, 105, 105, 0.076),
+    0 2px 11.4px rgba(0, 0, 0, 0.086),
+    0 2px 19.8px rgba(0, 0, 0, 0.092),
+    0 2px 34.8px rgba(0, 0, 0, 0.1),
+    0 2px 74px rgba(0, 0, 0, 0.13);
+}
+.logo img{
+    margin: auto;
+}
+body{
+    background: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+.kaisetu{
+    margin: 0;
+    padding: 0;
+    box-shadow:
+    0 20px 0 -10px rgb(198, 224, 231),
+    0 40px 0 -20px rgb(105, 171, 209),
+    0 60px 0 -30px rgb(27, 115, 165);
+    display: flex;
+    font-family: "Noto Sans JP";
+    position: relative;
+    top: 15px;
+    left: 450px;
+    border: black solid 2px;
+    width: 1000px;
+    height: 196px;
+}
+.kaisetu:hover{
+    background-color: #eeeeee;
+    -webkit-transition: all 0.3sF0F0F0 ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease
+}
+.time i{
+    display: inline;
+}
+
+.dai{
+    font-family: "Noto Sans JP";
+    text-align: center;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    background-color: #262626;
+}
+footer p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Noto Sans JP";
+}
+.sakusya{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+footer img{
+    position: relative;
+    left: 50px;
+    width: 120px;
+    height: 30px;
+}
+.main{
+    font-family: "Noto Sans JP";
+    position: relative;
+    left: 650px;
+    width: 700px;
+}

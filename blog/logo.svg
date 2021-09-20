@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82mm"
+   height="32mm"
+   viewBox="0 0 82 32"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="172.53405"
+     inkscape:cy="632.15346"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="209mm" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter22829"
+       x="-0.1710417"
+       y="-0.17621361"
+       width="1.967233"
+       height="1.9820715">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood22819" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite22821" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.69280354"
+         result="blur"
+         id="feGaussianBlur22823" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset22825" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite22827" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.8931px;line-height:1.25;font-family:'03SmartFontUI';-inkscape-font-specification:'03SmartFontUI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="6.6091518"
+       y="14.082562"
+       id="text2168"
+       transform="scale(0.96948431,1.0314762)"><tspan
+         id="tspan2166"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'03SmartFontUI';-inkscape-font-specification:'03SmartFontUI';stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="6.6091518"
+         y="14.082562"
+         sodipodi:role="line">&gt;KokkoSoft</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.8931px;line-height:1.25;font-family:'03SmartFontUI';-inkscape-font-specification:'03SmartFontUI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="6.6091537"
+       y="26.533888"
+       id="text16674"
+       transform="scale(0.96948431,1.0314762)"><tspan
+         id="tspan16672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'03SmartFontUI';-inkscape-font-specification:'03SmartFontUI';stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="6.6091537"
+         y="26.533888"
+         sodipodi:role="line"> Blog_</tspan></text>
+    <path
+       style="fill:#0087ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter22829)"
+       d="m 35.828847,87.456988 c 9.448447,2.227193 4.258076,-5.696391 4.258076,-5.696391 l 5.759686,9.847893 -10.017762,-4.151502"
+       id="path21349"
+       sodipodi:nodetypes="cccc"
+       transform="matrix(1.0095472,0,0,1.028745,-38.539097,-81.485515)" />
+  </g>
+</svg>
