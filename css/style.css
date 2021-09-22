@@ -211,3 +211,9 @@ footer img{
       position: relative;
       left: 10px;
   }
+  .status{
+      position: relative;
+      left: 50px;
+      color: white;
+      font-family: "Noto Sans JP";
+  }
