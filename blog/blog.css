@@ -28,7 +28,7 @@ html{
     0 20px 0 -10px rgb(198, 224, 231),
     0 40px 0 -20px rgb(105, 171, 209),
     0 60px 0 -30px rgb(27, 115, 165);
-    display: flex;
+    
     font-family: "Noto Sans JP";
     position: relative;
     top: 15px;
@@ -81,4 +81,29 @@ footer img{
     position: relative;
     left: 650px;
     width: 700px;
+}
+.nico{
+    
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-shadow:
+    0 20px 0 -10px rgb(198, 224, 231),
+    0 40px 0 -20px rgb(105, 171, 209),
+    0 60px 0 -30px rgb(27, 115, 165);
+    
+    font-family: "Noto Sans JP";
+    position: relative;
+    top: 15px;
+    left: 450px;
+    border: black solid 2px;
+    width: 1000px;
+    height: 196px;
+}
+.nico:hover{
+    background-color: #eeeeee;
+    -webkit-transition: all 0.3sF0F0F0 ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease
 }
