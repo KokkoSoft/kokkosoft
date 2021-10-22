@@ -212,6 +212,7 @@ footer img{
       left: 10px;
   }
   .status{
+      width: 500px;      
       position: relative;
       left: 50px;
       color: white;
