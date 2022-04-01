@@ -9,29 +9,26 @@ body{
 header{
     background: rgba(0, 0, 0, 0.8);
 }
+.logo{
+    text-align: center;
+}
 .kokkologo{
     margin: 0%;
     padding: 0%;
-    width: 10%;
+    width: 15%;
     height: auto;
 }
-.logo p{
-    font-family: "Noto Sans JP";
-    color: rgb(235, 239, 243);
-    padding: 0;
-    margin: 0;
+.kusodeka{
+    text-align: center;
+    font-family: 'Century Gothic';
 }
-.anm1{
-    width: 39%;
-    height: auto;
+.kusodeka h1{
+    font-size: 20vh;
+    font-style: italic;
+    margin: 20px;
 }
-.re{
-    display: flex; 
-    font-family: "Noto Sans JP";
-}
-.re pre{
-    font-family: "Noto Sans JP";
-}
-h2{
-    font-family: "Noto Sans JP";
+.kusodeka p{
+    margin: 10px;
+    font-size: 5vh;
+    font-weight: bold;
 }
