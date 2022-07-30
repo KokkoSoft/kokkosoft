@@ -3,11 +3,12 @@ html{
     padding: 0%;
 }
 body{
+    background-color: rgb(37, 37, 37);
     margin: 0%;
     padding: 0%;
 }
 header{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(2, 0, 15, 0.8);
 }
 .logo{
     text-align: center;
@@ -19,16 +20,51 @@ header{
     height: auto;
 }
 .kusodeka{
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Century Gothic';
 }
-.kusodeka h1{
-    font-size: 20vh;
+.kusodeka a1 a2{
     font-style: italic;
-    margin: 20px;
+}
+.a1{
+    font-size: 10vh;
 }
 .kusodeka p{
     margin: 10px;
-    font-size: 5vh;
     font-weight: bold;
+}
+.kusodeka .b{
+    display: none;
+}
+.kusodeka:active .a{
+    display: none;
+}
+.kusodeka:active .b{
+    display: inline;
+}
+.member{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Century Gothic";
+}
+.a3{
+    width: 15%;
+    height: auto;
+}
+.a4{
+    margin: 0%;
+    color: rgb(0, 134, 45);
+    font-family: "Century Gothic";
+}
+.a5{
+    margin: 0%;
+    font-family: "Century Gothic";
+    color: white;
+}
+.a6{
+    margin: 1%;
+    font-family: "Noto Sans JP";
 }
