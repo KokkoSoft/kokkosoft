@@ -68,3 +68,32 @@ header{
     margin: 1%;
     font-family: "Noto Sans JP";
 }
+.project{
+    font-size: 200%;
+    font-family: Century Gothic;
+    color: white;
+    text-align: center;
+    margin: 130 15 10;
+}
+.Projecta{;
+    margin: 0%;
+    font-family: Century Gothic;
+    color: white;
+    text-align: center;
+}
+.darui{
+    margin: 0%;
+    font-size: 70%;
+}
+.abc{
+    border-radius: 3%;
+    border: 15%;
+    width: 15%;
+    height: auto;
+}
+.abc:hover{
+    border-radius: 1%;
+    width: 17%;
+    height: auto;
+    transition: 0.5s;
+}
