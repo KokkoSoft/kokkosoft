@@ -45,7 +45,6 @@ header{
 }
 .member{
     color: rgb(255, 255, 255);
-    font-weight: bold;
     text-align: center;
     font-size: 5vh;
     font-family: "Century Gothic";
@@ -76,7 +75,6 @@ header{
     margin: 130 15 10;
 }
 .Projecta{;
-    margin: 0%;
     font-family: Century Gothic;
     color: white;
     text-align: center;
@@ -96,4 +94,16 @@ header{
     width: 17%;
     height: auto;
     transition: 0.5s;
+}
+#iei{
+    font-family: Century Gothic;
+    text-align: center;
+    color: white;
+    margin: 0%;
+    font-size: 500%;
+}
+#yaa{
+    font-family: Noto Sans JP;
+    text-align: center;
+    color: white;
 }
