@@ -84,6 +84,7 @@ header{
     font-size: 70%;
 }
 .abc{
+    transition: 0.5s;
     border-radius: 3%;
     border: 15%;
     width: 15%;
@@ -106,4 +107,48 @@ header{
     font-family: Noto Sans JP;
     text-align: center;
     color: white;
+}
+#dialog{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    top: 35%;
+    width: 30%;
+    height: 25%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#dialog p{
+    font-family: Noto Sans JP;
+    margin: 0%;
+}
+.unkoman{
+    color: blue;
+    font-size: 130%;
+    font-family: Noto Sans JP;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+.unkoman:hover{
+    color: red;
+    transition: 0.5s;
+}
+.as{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+#batsu{
+    margin: 10%;
+    text-align: end;
+}
+#batsu:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
 }
