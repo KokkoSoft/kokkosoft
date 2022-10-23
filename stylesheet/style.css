@@ -152,3 +152,85 @@ header{
     color: white;
     background-color: red;
 }
+.hatane {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    border-top: 10px solid rgb(33, 116, 0);
+}
+.le {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 54, 0);
+    font-size: 50%;
+    font-family: Roboto;
+    margin: 0%;
+    text-align: start;
+}
+.iconh{
+    box-shadow: 0 10px 25px 0 black;
+    box-shadow: 5px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.ht{
+    font-family: Roboto;
+    margin: 0%;
+}
+.frm {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    border-top: 10px solid rgb(0, 102, 255);
+}
+.sle {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 119, 255);
+    font-size: 50%;
+    font-family: Roboto;
+    margin: 0%;
+    text-align: start;
+}
+.iconf{
+    box-shadow: 0 10px 25px 0 black;
+    box-shadow: 5px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.fr{
+    font-family: Roboto;
+    margin: 0%;
+}
+.member{
+    font-size: 200%;
+}
+.etc{
+    box-shadow:  0 10px 25px 0 black;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(0, 8, 78);
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+    font-family: Noto Sans JP;
+    position: relative;
+}
+.etc:hover{
+    transition: 0.5s;
+    background-color: rgb(9, 0, 129);
+}
