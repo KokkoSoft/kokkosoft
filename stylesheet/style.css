@@ -7,17 +7,63 @@ body{
     margin: 0%;
     padding: 0%;
 }
+*{
+    margin:0%;
+    padding:0%;
+}
 header{
     background: rgba(2, 0, 15, 0.8);
 }
+.nazospace{
+    margin-top:5em;
+}
 .logo{
+    position: fixed;
+    top:0;
     text-align: center;
+    backdrop-filter:blur(25px);
+    width:100%;
 }
 .kokkologo{
     margin: 0%;
     padding: 0%;
     width: 15%;
     height: auto;
+    filter:drop-shadow(0 0 3px #000);
+}
+.Twitter{
+    position: absolute;
+    right:1em;
+    margin:1em;
+    width:2em;
+}
+h1{
+    font-size:3em;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+}
+p{
+    font-size:1em;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+}
+.h1black{
+    font-size:3em;
+    text-align: center;
+    color:#000000;
+    font-family: 'Roboto','Noto Sans JP';
+}
+.pblack{
+    font-size:1em;
+    color:#000000;
+    font-family: 'Roboto','Noto Sans JP';
+}
+.center{
+    text-align: center;
+}
+.black{
+    color:#000000;
 }
 .kusodeka{
     color: rgb(255, 255, 255);
@@ -74,7 +120,7 @@ header{
     text-align: center;
     margin: 130 15 10;
 }
-.Projecta{;
+.Projecta{
     font-family: Century Gothic;
     color: white;
     text-align: center;
@@ -94,6 +140,29 @@ header{
     border-radius: 1%;
     width: 17%;
     height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Kokkosaba{
+    margin:0 auto;
+}
+.def{
+    width:35%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.def:hover{
+    border-radius: 1%;
+    width: 40%;
+    height: auto;
+    transition: 0.5s;
+}
+.def_t{
+    opacity: 0;
+    transition: 0.5s;
+}
+.Kokkosaba:hover .def_t{
+    opacity: 1;
     transition: 0.5s;
 }
 #iei{
@@ -143,82 +212,119 @@ header{
     background-color: rgba(0, 0, 0, 0.164);
 }
 #batsu{
+    background-color: #8a0a0a;
     margin: 10%;
     text-align: end;
+    user-select: none;
+    cursor:pointer;
 }
 #batsu:hover{
     transition: 0.5s;
     border-radius: 5px;
-    color: white;
-    background-color: red;
 }
-.hatane {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    background-color: rgb(255, 255, 255);
+.suchmember {
+    display: block;
+    background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 500px;
-    height: auto;
-    border-radius: 5px;
-    border-top: 10px solid rgb(33, 116, 0);
+    height: 325px;
+    border-radius:0 0 5px 5px;
+    padding:0.5em;
+    margin:0 0.5em 1em;
+    transition: 0.5s;
 }
-.le {
-    background-color: rgb(255, 255, 255);
-    color: rgb(9, 54, 0);
+.suchmember_prof {
+    display: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 325px;
+    border-radius:0 0 5px 5px;
+    padding:0.5em;
+    margin:0 0.5em 1em;
+    text-align: left;
+    transition: 0.5s;
+}
+.membertable td:hover .suchmember{
+    display: none;
+}
+.membertable td:hover .suchmember_prof{
+    display: block;
+}
+.shogo {
+    color: #ffffff;
     font-size: 50%;
     font-family: Roboto;
-    margin: 0%;
+    padding:0.5em 1em;
+    border-radius:5px 5px 0 0;
+    margin: 0 auto;
     text-align: start;
+    width:500px;
+    height:auto;
 }
-.iconh{
+.memicon{
     box-shadow: 0 10px 25px 0 black;
     box-shadow: 5px;
     width: 100px;
     height: auto;
     border-radius: 5px;
+    margin:0.5em;
 }
-.ht{
-    font-family: Roboto;
+.memname{
+    font-family: 'Roboto','Noto Sans JP';
+    font-size:1em;
+    color:#000000;
     margin: 0%;
 }
-.frm {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    width: 500px;
-    height: auto;
-    border-radius: 5px;
-    border-top: 10px solid rgb(0, 102, 255);
-}
-.sle {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 119, 255);
-    font-size: 50%;
-    font-family: Roboto;
-    margin: 0%;
-    text-align: start;
-}
-.iconf{
-    box-shadow: 0 10px 25px 0 black;
-    box-shadow: 5px;
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
-}
-.fr{
-    font-family: Roboto;
+.memnameEn{
+    font-family: 'Roboto','Noto Sans JP';
+    font-size:0.75em;
+    color:#000000;
     margin: 0%;
 }
 .member{
     font-size: 200%;
 }
+.membertable{
+    margin:0 auto;
+}
+.profile{
+    display: none;
+}
+.profile:hover{
+   display: block; 
+}
+.prof{
+    font-size:0.6em;
+    color:#000000;
+    font-family: 'Roboto','Noto Sans JP';
+    font-weight: lighter;
+    line-height: 0;
+    padding:0 0.5em;
+    border-right:2px #4b4b4b solid;
+}
+.prof2{
+    font-size:0.6em;
+    color:#000000;
+    font-family: 'Century Gothic','Roboto','Noto Sans JP';
+    font-weight: lighter;
+    line-height: 0;
+    padding-left: 0.5em;
+}
+
+#htn{
+    background: rgb(33, 116, 0);
+}
+#frm{
+    background: #0089ff;
+}
+#drp{
+    background: #00356d;
+}
+#mtr{
+    background: #c4c000;
+}
+
 .etc{
     box-shadow:  0 10px 25px 0 black;
     padding: 1%;
@@ -229,8 +335,37 @@ header{
     font-size: 50%;
     font-family: Noto Sans JP;
     position: relative;
+    user-select: none;
+    cursor: pointer;
 }
 .etc:hover{
     transition: 0.5s;
     background-color: rgb(9, 0, 129);
+}
+
+.under{
+    background:#191919;
+    margin:0;
+    height:8.5em;
+}
+
+.underimage{
+    height:4em;
+    margin:2em;
+}
+
+.undertext{
+    display: inline;
+    position: relative;
+    bottom:1.6em;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+    font-size:2em;
+}
+
+.Twitterunder{
+    position: absolute;
+    right:2.5em;
+    margin:2.5em auto;
+    height:3em;
 }
