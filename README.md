@@ -1,3 +1,2 @@
-# kokkosoft.github.io
+# kokkosoft.com
 Kokkosoft HP
-cloudflareに移行しました
