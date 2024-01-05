@@ -6,6 +6,18 @@ body{
     background-color: rgb(37, 37, 37);
     margin: 0%;
     padding: 0%;
+    animation:Start 0.75s ease 0s 1 ;
+}
+@keyframes Start{
+    0% {
+      opacity: 0;
+      filter: brightness(0);
+    }
+  
+    100% {
+      opacity: 1;
+      filter: brightness(1);
+    }
 }
 *{
     margin:0%;
@@ -14,21 +26,19 @@ body{
 header{
     background: rgba(2, 0, 15, 0.8);
 }
-.nazospace{
-    margin-top:5em;
-}
 .logo{
     position: fixed;
     top:0;
+    z-index:100;
     text-align: center;
-    backdrop-filter:blur(25px);
+    backdrop-filter:blur(25px) brightness(0.75);
     width:100%;
+    height:7.5vh;
 }
 .kokkologo{
     margin: 0%;
     padding: 0%;
-    width: 15%;
-    height: auto;
+    height: 7.5vh;
     filter:drop-shadow(0 0 3px #000);
 }
 .Twitter{
@@ -39,6 +49,20 @@ header{
 }
 h1{
     font-size:3em;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+}
+h2{
+    font-size:2em;
+    font-weight: 100;
+    line-height:3em;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Century Gothic','Roboto','Noto Sans JP';
+}
+h3{
+    font-size:1.5em;
     text-align: center;
     color:#ffffff;
     font-family: 'Roboto','Noto Sans JP';
@@ -113,12 +137,65 @@ p{
     margin: 1%;
     font-family: "Noto Sans JP";
 }
-.project{
-    font-size: 200%;
-    font-family: Century Gothic;
-    color: white;
+#FirstSticky{
+    position: relative;
+    z-index: 1;
+    top:0vh;
+    background-position: center;
+    background-size: cover;
+    text-shadow:0 0 10px #000000;
+    box-shadow: 0px -10vh 7.5vh -20px rgb(37, 37, 37) inset;
+    user-select: none;
+}
+.First{
+    display: block;
+    font-size:10vh;
+    font-weight: bold;
+    line-height: 15vh;
     text-align: center;
-    margin: 130 15 10;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+    position: sticky;
+    top:45vh;
+    z-index:1;
+}
+.FirstGrad{
+    position: relative;
+    font-weight: bold;
+    background:linear-gradient(135deg,#3200ff,#a500ff);
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.FirstGrad::before{
+    position:absolute;
+    font-weight: bold;
+    content:"KokkoSoft?";
+    color:#ffffff;
+    background:linear-gradient(135deg,#3200ff,#a500ff);
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-shadow: none;
+}
+.First2{
+    display: block;
+    font-size:2.5vh;
+    font-weight: lighter;
+    line-height: 0vh;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Roboto','Noto Sans JP';
+    position: sticky;
+    top: 60vh;
+    z-index:1;
+}
+.space{
+    height: 100vh;
+}
+.halfspace{
+    height: 50vh;
+}
+.kusodekalogo{
+    margin-top:100vh;
 }
 .Projecta{
     font-family: Century Gothic;
@@ -177,15 +254,23 @@ p{
     text-align: center;
     color: white;
 }
-#dialog{
+#kokkochat{
+    display: block;
     position: absolute;
-    left: 50%;
+}
+#dialog{
+    display: inline-block;
+    position: relative;
+    top:0;
+    left: 0;
+    z-index:2;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     top: 35%;
     width: 30%;
     height: 25%;
+    text-align: center;
     margin: 0 auto;
     background-color: white;
     color: black;
@@ -222,8 +307,12 @@ p{
     transition: 0.5s;
     border-radius: 5px;
 }
+.member{
+    font-size: 200%;
+}
 .suchmember {
     display: block;
+    position: absolute;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 500px;
@@ -234,7 +323,10 @@ p{
     transition: 0.5s;
 }
 .suchmember_prof {
-    display: none;
+    display: inline-block;
+    position: relative;
+    top:0;
+    left:0;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 500px;
@@ -243,13 +335,13 @@ p{
     padding:0.5em;
     margin:0 0.5em 1em;
     text-align: left;
-    transition: 0.5s;
+    transition: 0.25s;
+    opacity: 0;
 }
-.membertable td:hover .suchmember{
-    display: none;
-}
+
 .membertable td:hover .suchmember_prof{
-    display: block;
+
+    opacity: 1;
 }
 .shogo {
     color: #ffffff;
@@ -281,9 +373,6 @@ p{
     font-size:0.75em;
     color:#000000;
     margin: 0%;
-}
-.member{
-    font-size: 200%;
 }
 .membertable{
     margin:0 auto;
@@ -368,4 +457,20 @@ p{
     right:2.5em;
     margin:2.5em auto;
     height:3em;
+}
+
+.YouTube{
+    display: block;
+    width:35vw;
+    height:35vh;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width:430px){
+    .YouTube{
+        width:90vw;
+        height:90vh;
+    }
 }
