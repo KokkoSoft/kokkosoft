@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   var backgroundnum = Math.floor(Math.random() * 9) + 1;
-  var background = "./imge/background/" + backgroundnum + ".png";
+  var background = "./imge/background/" + backgroundnum + ".jpg";
         
   var firstSticky = document.getElementById("FirstSticky");
   firstSticky.style.backgroundImage = "url('" + background + "')";
