@@ -11,11 +11,11 @@ function BringTwitterBack0() {
   }
 }
 
+setInterval(BringTwitterBackRunningBg, 15);
+
 function BringTwitterBackRunningBg() {
 	x0rx = Math.floor(Math.random() * (x0rs * 2 + 1)) - (x0rs + 1);
 	x0ry = Math.floor(Math.random() * (x0rs * 2 + 1)) - (x0rs + 1);
   x0rs -= x0rs / 100;
   x0s.style.transform = "translate(" + x0rx + "px, " + x0ry + "px)";
 }
-
-setInterval(BringTwitterBackRunningBg, 15);
