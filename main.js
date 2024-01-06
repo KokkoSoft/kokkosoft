@@ -38,4 +38,4 @@ function BringTwitterBackRunningBg() {
   x0s.transform = "translate(" + x0rx + "px, " + x0ry + "px)"
 }
 
-setInterval(BringTwitterBackRunningBg, 5);
+setInterval(BringTwitterBackRunningBg, 15);
