@@ -1,8 +1,8 @@
 'use strict'
 /* BringTwitterBack(); */
 var x0 = 0; var x0rx = 0; var x0ry = 0; var x0rs = 0;
-var x0t = document.getElementById("x0").textContent;
-var x0s = document.getElementById("Xing0").style;
+const x0t = document.getElementById("x0").textContent;
+const x0s = document.getElementById("Xing0").style;
 
 function BringTwitterBack0() {
 	x0 += 1; x0rs = x0 * 1.2;
