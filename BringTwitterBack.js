@@ -1,3 +1,4 @@
+'use strict'
 /* BringTwitterBack(); */
 var x0 = 0; var x0rx = 0; var x0ry = 0; var x0rs = 0;
 var x0t = document.getElementById("x0").textContent;
