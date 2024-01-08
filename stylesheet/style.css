@@ -147,6 +147,7 @@ p{
     box-shadow: 0px -10vh 7.5vh -20px rgb(37, 37, 37) inset;
     user-select: none;
     animation:Start 0.75s ease 0s 1 ;
+    width: 100vw; height: 100vw;
 }
 .First{
     display: block;
