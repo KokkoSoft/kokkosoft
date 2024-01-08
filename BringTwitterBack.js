@@ -12,9 +12,9 @@ function BringTwitterBack0() {
   }
 }
 
-setInterval(BringTwitterBackRunningBg, 15);
+setInterval(runbt, 15);
 
-function BringTwitterBackRunningBg() {
+function runbt() {
 	x0rx = Math.floor(Math.random() * (x0rs * 2 + 1)) - (x0rs + 1);
 	x0ry = Math.floor(Math.random() * (x0rs * 2 + 1)) - (x0rs + 1);
   x0rs -= x0rs / 2000;
