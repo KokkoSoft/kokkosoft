@@ -11,9 +11,9 @@ function BringTwitterBack0() {
   if (x0c === 12) {
     x0t.textContent = "Twitter";
   } else if (x0c === 24) {
-    for (let x0tmp1 = 0; x0tmp1 < 7; x0tmp1++) {
+    /* for (let x0tmp1 = 0; x0tmp1 < 7; x0tmp1++) {
       x0t.textContent.slice(0, (x0t.textContent.length - 1));
-    }
+    } */
     x0t.textContent = "X";
     x0c = 0;
   }
