@@ -6,7 +6,7 @@ const x0s = document.getElementById("x0");
 const ixBwStylist = document.getElementById("ixBw").style;
 
 function BringTwitterBack0() {
-	x0 += 1; x0rs = x0 * 25;
+	x0 += 1; x0rs = x0 * 5;
   if (x0 >= 12) {
     x0t.textContent = "Twitter";
   }
