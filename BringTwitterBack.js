@@ -12,7 +12,7 @@ function BringTwitterBack0() {
   }
 }
 
-setInterval(runbt, 15);
+setInterval(runbt, 5);
 
 function runbt() {
   x0rx = Math.floor(Math.random() * (x0rs * 2 + 1)) - (x0rs + 1);
