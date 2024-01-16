@@ -143,6 +143,7 @@ p{
     top:0vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     text-shadow:0 0 10px #000000;
     box-shadow: 0px -10vh 7.5vh -20px rgb(37, 37, 37) inset;
     user-select: none;
