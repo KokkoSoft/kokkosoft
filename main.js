@@ -20,3 +20,13 @@ function otu(){
   alert("作成中です。");
 }
 
+var wIw = window.innerWidth();
+function isVerticalMobileStyleRequired() {
+  if (wIw < 400) {
+    document.getElementById("iMSR0").textContent = "KokkoSoftは、\r\n学生のみで構成されたITグループです。";
+  } else {
+    document.getElementById("iMSR0").textContent = "KokkoSoftは、学生のみで構成されたITグループです。";
+  }
+}
+
+setInterval(isVerticalMobileStyleRequired, 10);
