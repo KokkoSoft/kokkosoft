@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var backgroundnum = Math.floor(Math.random() * 9) + 1;
+  var backgroundnum = Math.floor(Math.random() * 11) + 1;
   var background = "./imge/background/" + backgroundnum + ".jpg";
         
   var firstSticky = document.getElementById("FirstSticky");
