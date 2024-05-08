@@ -477,3 +477,7 @@ p{
         height:90vh;
     }
 }
+
+.NoSelect {
+    user-select: none;
+}
