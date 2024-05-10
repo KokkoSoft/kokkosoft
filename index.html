@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: https://ogp.me/ns#" lang="ja">
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
         <link rel="icon" href="imge/icon.ico">
+        <meta name="description" content="KokkoSoftは、学生のみで構成されたITグループです。">
+        <meta property="og:title" content="KokkoSoft">
+        <meta property="og:image" content="/imge/icon.ico">
+        <meta property="og:url" content="https://kokkosoft.com">
         <script>
     $(a).fadeIn(speed,callback);
         </script>
@@ -24,7 +28,7 @@
 
         <header>
             <div class="logo">
-                &emsp;<a href="index.html"><img class="kokkologo" src="imge/logo.png"></a>
+                &emsp;<a href="index.html"><img class="kokkologo" src="imge/logo.png" alt="KokkoSoftのロゴ"></a>
                 <a href="https://twitter.com/KokkoSoft" target="_blank"><img class="Twitter" src="imge/2021 Twitter logo - white.png"></a>
             </div>
         </header>
@@ -42,13 +46,13 @@
     <h2>Projects</h2>
 
         <div id="al">
-        <img class="abc" onclick="hjyan()" src="imge/kokkoshat.png">
+        <img class="abc" onclick="hjyan()" src="imge/kokkoshat.png" alt="KokkoChatの仮ロゴ">
         <div id="Kokkochat">
         <div id="dialog">
             <p id="batsu" onclick="toziru()" >✖&nbsp;</p>
             <br>
             <div class="h1black">KokkoChat</div>
-            <div class="pblack">Kokkosoft製チャットアプリ。開発中</div>
+            <div class="pblack">KokkoSoft製チャットアプリ。開発中</div>
             <br><br>
             <a class="unkoman" href="/#">開発中です</a>
             </div>
@@ -59,7 +63,7 @@
         <br><br>
 
         <div class="Kokkosaba">
-            <img class="def" src="imge/KokkoSoft鯖.png">
+            <img class="def" src="imge/KokkoSoft鯖.png" alt="KokkoServer">
             <div class="def_t">ホームぺージ、マイクラ鯖、KokkoChatに使用予定</div>
         </div>
         
@@ -74,7 +78,7 @@
         <td>
         <p class="shogo" id="htn">Leader</p>
         <span class="suchmember">
-            <img class="memicon" src="imge/member/icon3.png">
+            <img class="memicon" src="imge/member/icon3.png" alt="はたねさんのアイコン">
             <div class="memname">はたねさん</div>
             <div class="memnameEn">hatane_230</div>
         </span>
@@ -112,7 +116,7 @@
         <td>
         <p class="shogo" id="frm">Sub Leader</p>
         <span class="suchmember">
-            <img class="memicon" src="imge/member/ロゴ4.0.png">
+            <img class="memicon" src="imge/member/ロゴ4.0.png" alt="ふらふらめんたいこのアイコン">
             <div class="memname">ふらふらめんたいこ</div>
             <div class="memnameEn">Furafuramentaiko</div>
         </span>
@@ -157,7 +161,7 @@
         <td id="ixBw">
         <p class="shogo" id="drp">Member</p>
         <span class="suchmember">
-            <img class="memicon" src="imge/member/driplase.png">
+            <img class="memicon" src="imge/member/driplase.png" alt="Driplaseのアイコン">
             <div class="memname">Driplase</div>
             <div class="memnameEn">Driplase</div>
         </span>
@@ -185,8 +189,8 @@
                 <br>
                 <br>
                 <tr>
-                    <tb><span class="prof2 NoSelect" id="x0"><a id="Xing0" onclick="BringTwitterBack0()">X</a></span></tb>
-                    <tb><a href="https://twitter.com/Driplase"><span class="prof2">@Driplase</span></a></tb>
+                    <tb><span class="prof2" id="x0"><a class="4xhater" id="Xing0" onclick="BringTwitterBack0()">X</a></span></tb>
+                    <tb><a href="https://twitter.com/Driplase"><span class="prof2">@Driplase</span>, <a href="https://twitter.com/esalpird"><span class="prof2">@Esalpird</span></a>, <a href="https://twitter.com/tskirg"><span class="prof2">@Tskirg</span></a></a></tb>
                 </tr>
                 <br>
                 <tr>
@@ -196,7 +200,7 @@
                 <br>
                 <tr>
                     <tb><span class="prof2">GitHub</span></tb>
-                    <tb><a href="https://github.com/Driplase"><span class="Driplase">D4p5-c47</span></a></tb>
+                    <tb><a href="https://github.com/Driplase"><span class="prof2">Driplase</span></a></tb>
                 </tr>
             </table>
         </span>
@@ -204,7 +208,7 @@
         <td>
         <p class="shogo" id="mtr">Member</p>
         <span class="suchmember">
-            <img class="memicon" src="imge/member/iseebi.jpg">
+            <img class="memicon" src="imge/member/iseebi.jpg" alt="いせえびのアイコン">
             <div class="memname">いせえび</div>
             <div class="memnameEn">mie_express</div>
         </span>
